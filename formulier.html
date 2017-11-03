@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="projecten.html">Project</a></li>
+            <li><a href="formulier.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Contact</h1>
+    <form>
+        <fieldset>
+            <legend>Cijferlijst</legend>
+            Naam
+            <input type="text" name="naam"><br>
+            wachtwoord
+            <input type="password" name="wachtwoord"<br>
+            <br>
+            leeftijd
+            <input type="number" name="leeftijd"><br>
+            Geslacht
+            <select id="Geslacht">
+                <option value="Man">Man</option>
+                <option value="Vrouw">Vrouw</option>
+                <option value="Overig">Overig</option>
+            </select>
+            <br>
+            email
+            <input type="email " name="email"><br>
+            <label for="plaats"> woonplaats:</label>
+            <select id="plaats">
+                <option value="rotterdam">rotterdam</option>
+                <option value="amsterdam">amsterdam</option>
+                <option value="eindhoven">eindhoven</option>
+                <option value="utrecht">utrecht</option>
+            </select>
+            <input type="submit">
+        </fieldset>
+    </form>
+</main>
+
+</body>
+</html>

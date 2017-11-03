@@ -1,0 +1,81 @@
+body {
+    background: url("http://uaettn.com/sites/default/files/Duabi.jpg");
+}
+
+main {
+    position: relative;
+    background-color: rgba(255, 230, 243, 0.75);
+    height: 95vh;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+header ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:link {
+    color: #ff7b06;
+}
+
+a:visited {
+    color: #ffe6f3;
+}
+
+a:hover {
+    color: #d90008;
+}
+
+a:active {
+    color: #0f00ff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+nav {
+    margin: 0;
+}
+
+.image {
+    border: solid;
+    margin-top: 5%;
+}
+
+.foto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+
+
